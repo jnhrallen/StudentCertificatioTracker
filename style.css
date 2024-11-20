@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{ 
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(23, 22, 24, 0.6),rgba(23, 22, 24, 0.6)), url(images/background2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+content {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Ensures content takes full viewport height */
+    text-align: center; /* Centers text inside the container */
+}
+
+
+.title {
+    color: #e8efee;
+    text-align: center;
+    margin-bottom: 80px; /* Larger space below the heading */
+}
+
+.form-box {
+    margin-top: 80px; /* Increased top margin for more space */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #2c2a2a;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Aligns form text to the left */
+}
+
+.certification-form label {
+    display: block;
+    margin-top: 10px;
+    color: #f4f5f5;
+}
+
+.certification-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #d8d2d2;
+    border-radius: 4px;
+    background-color: #8a8080; /* Dark background to match theme */
+    color: #e3eae3; /* Light text color */
+}
+
+.certification-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d28539;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.certification-form button:hover {
+    background-color: #0f100f;
+}
+
+
+.logo-section {
+    display: flex;
+    align-items: center; /* Align logo and tagline vertically */
+}
+
+
+.logo {
+    width: 110px; /* Adjust this value to make the logo smaller */
+    height: auto;
+    padding: 10px; 
+    border: 3px solid  #1f1e1d; 
+    border-radius: 8px;
+    background-color:rgba(22, 22, 22); 
+    cursor: pointer;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.tagline {
+    color: #e8efee;
+    font-size: 0.8rem; /* Corrected font size unit */
+    font-weight: 100;
+    white-space: nowrap; /* Prevents the tagline from breaking to a new line */
+}
+    
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul{
+   
+        list-style: none;
+        width: 100%;
+        text-align: right;
+        padding-right: 60px;
+}
+
+nav ul li { 
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+     color: #e8efee;
+     text-decoration: none;
+}
+footer#contactUs {
+    background-image: linear-gradient(rgba(23, 22, 24, 0.6), rgba(23, 22, 24, 0.6)), url(images/background2.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 0;
+}
+
+footer#contactUs h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px; /* Reduced margin for less space */
+}
+
+.contact-box {
+    background-color: rgba(21, 21, 21, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(193, 189, 189, 0.5);
+    padding: 10px;
+    margin: 0 auto 10px auto; /* Reduced margin to create less space below the contact box */
+    width: 60%;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.contact-box h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px; /* Reduced margin for the heading */
+}
+
+.contact-box p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.contact-box a {
+    color: #e3eae3;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+} 
